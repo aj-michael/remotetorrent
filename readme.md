@@ -14,6 +14,10 @@ When I have time, I will write an iOS client for when I don't have a laptop with
 
 ## Usage
 
+### Pusher
+
+You will need to register an app on pusher.com. Then set the following environment variables: RT_PUSHER_APP_ID, RT_PUSHER_APP_KEY, RT_PUSHER_APP_SECRET.
+
 ### Server
 
 You will need Java, Gradle and Transmission installed.
