@@ -66,7 +66,7 @@ func main() {
 				"piece":  strconv.Itoa(piece),
 				"pieces": strconv.Itoa(pieces),
 				"data":   substring}
-			client.Trigger("torrentfiles", "newtorrent", data)
+			client.Trigger("private-torrentfiles", "client-newtorrent", data)
 			start = next
 			piece += 1
 		}
